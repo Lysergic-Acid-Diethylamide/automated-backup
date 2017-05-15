@@ -1,0 +1,12 @@
+#help menu for custom aliases / programs
+alias command-list="scripts/command-list.sh"
+
+#custom backup file search scripts
+alias search-logs="scripts/search-logs.sh"
+alias search-backups="scripts/search-backups.sh"
+
+#storage statistics
+alias capacity="scripts/storage-capcacity.sh"
+
+#delete everything
+alias nuke="scripts/nuke.sh"
