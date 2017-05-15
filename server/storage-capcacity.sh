@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#auth: root
+#auth: Lysergic
 #name: storage_statistics.sh
 #desc: gathers and processes storage statistics to display to the user
 #note: script is run in .bashrc upon opening a shell
@@ -32,4 +32,4 @@ echo "[$memUsedPercent% used]"
 echo
 echo "used      $memUsed"
 echo "availible $memRemaining"
-echo "total     30582804 bytes"
+echo "total     30582804 bytes" #machine I used had 38GB of storage hence 30582804
