@@ -1,10 +1,10 @@
-##Backup-Automation
+# Backup-Automation
 
-#Usage guide for "setup.sh"
+### Usage guide for "setup.sh"
 Bash script will generate folders for "upload.sh" to execute, create a cronjob to execute "upload.sh" on reboot.
 Essentially, "setup.sh" will generate and automate all the dull things to save fifteen glorious seconds.
 
-#Usage guide for "upload.sh"
+### Usage guide for "upload.sh"
 
 Bash script will connect to external machine (ip address of machine hardcoded into script) and upload a compressed
 directory (MAKE SURE TO CHANGE SOURCE) to defined directory (MAKE SURE TO CHANGE SOURCE).
@@ -20,3 +20,7 @@ This script is for basic backups and should NOT be used for anything formal.
 IMPORTANT: remember to keep server up and running or script will fail, no upload exceptions implemented.
 
 Compression type: bzip2, tar
+
+##### Plans:
+- [x] upload server scripts
+- [ ] add support for Windows
