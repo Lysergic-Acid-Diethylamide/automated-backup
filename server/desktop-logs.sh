@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#auth: root
-#name: laptop-logs.sh
+#auth: Lysergic
+#name: serach-logs.sh
 #desc: searches laptop system logs based on the user's options
 
-DESKTOP_LOG_PATH="/home/pi/BACKUP/desktop/system_logs"
+DESKTOP_LOG_PATH="DIRECTORY OF WHERE BACKUPED LOGS ARE HELD"
 
 echo "return latest log         [0]"
 echo "search for a specific log [1]"
