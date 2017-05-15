@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#auth: root
+#auth: Lysergic
 #name: nuke.sh
 #desc: wipes all backups
 
