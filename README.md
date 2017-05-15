@@ -1,5 +1,7 @@
 # Backup-Automation
+# -----------------
 
+## CLIENT
 ### Usage guide for "setup.sh"
 Bash script will generate folders for "upload.sh" to execute, create a cronjob to execute "upload.sh" on reboot.
 Essentially, "setup.sh" will generate and automate all the dull things to save fifteen glorious seconds.
@@ -20,6 +22,13 @@ This script is for basic backups and should NOT be used for anything formal.
 IMPORTANT: remember to keep server up and running or script will fail, no upload exceptions implemented.
 
 Compression type: bzip2, tar
+
+## SERVER
+### Usage guide for "setup.sh"
+Bash script will add custom commands to ".bash_aliases" and adds line to execute "storage-capacity" when opening bash (appends script/storage-capacity.sh to .bashrc)
+
+### scripts
+The scripts are designed to make managing the backups easier as well as add some nice features like reaching Defcon 1 with your backups (tic tac toe won't help you)
 
 ##### Plans:
 - [x] upload server scripts
