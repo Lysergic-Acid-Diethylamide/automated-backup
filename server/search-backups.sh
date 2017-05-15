@@ -1,10 +1,10 @@
 #!/bin/bash
 
-#auth: root
-#name: laptop-search.sh
+#auth: Lysergic
+#name: search-backups.sh
 #desc: searches laptop backups based on the user's options
 
-LAPTOP_BACKUP_PATH="/home/pi/BACKUP/laptop/backup"
+LAPTOP_BACKUP_PATH="DIRECTORY WHERE BACKUPS ARE HELD"
 
 echo "return latest backups        [0]"
 echo "search for a specific backup [1]"
